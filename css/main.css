@@ -2877,7 +2877,7 @@ form textarea:required:valid {
   height: 4.4rem;
   -moz-border-radius: 2rem;
        border-radius: 2rem;
-  color: var(--t-muted);
+  color: var(--t-bright);
   font-size: 1.6rem;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -3053,7 +3053,7 @@ form textarea:required:valid {
 
 .avatar__image {
   overflow: visible;
-  height: 605px !important;
+  height: 100% !important;
   mask-image: linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,1) 71%, transparent 95%);
 }
 .avatar__image::before{
@@ -3094,7 +3094,7 @@ form textarea:required:valid {
   height: 4.4rem;
   -moz-border-radius: 2rem;
        border-radius: 2rem;
-  color: var(--t-disabled);
+  color: var(--t-bright);
   background-color: transparent;
   border: none;
   white-space: nowrap;
@@ -4274,3 +4274,4 @@ form textarea:required:valid {
 /* ------------------------------------------------*/
 /* Features Socials End */
 /* ------------------------------------------------*/
+
