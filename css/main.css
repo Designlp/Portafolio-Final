@@ -3055,6 +3055,7 @@ form textarea:required:valid {
   overflow: visible;
   height: 100% !important;
   mask-image: linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,1) 71%, transparent 95%);
+  overflow: hidden;
 }
 .avatar__image::before{
   content: '';
