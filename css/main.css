@@ -2930,20 +2930,27 @@ form textarea:required:valid {
       -ms-transform-origin: top left;
           transform-origin: top left;
 }
+@media only screen and (max-width: 769px){
+  .avatar {
+  height: 769px;
+  width: 100% !important;
+  }
+}
 @media only screen and (min-width: 768px) {
   .avatar {
     padding-top: 3rem;
     padding-bottom: 7.5rem;
     width: -moz-calc(100% - 12rem);
     width: calc(100% - 12rem);
+    height: 1000px;
   }
 }
 @media only screen and (min-width: 992px) {
   .avatar {
     position: fixed;
     top: 3rem;
-    left: 3rem;
-    width: 300px;
+
+    width: 370px;
     height: -moz-calc(100% - 6rem);
     height: calc(100% - 6rem);
     margin: 0;
@@ -2951,23 +2958,20 @@ form textarea:required:valid {
     padding-bottom: 0;
   }
 }
-@media only screen and (min-width: 1200px) {
-  .avatar {
-    left: 6rem;
-  }
-}
+
 @media only screen and (min-width: 1400px) {
   .avatar {
     top: 5rem;
-    left: 8rem;
-    width: 500px;
+    left: 6rem;
+    width: 460px;
     height: -moz-calc(100% - 10rem);
     height: calc(100% - 10rem);
   }
 }
 @media only screen and (min-width: 1600px) {
   .avatar {
-    left: 10rem;
+    left: 7rem;
+    width: 555px;
   }
 }
 
@@ -3052,6 +3056,7 @@ form textarea:required:valid {
 }
 
 .avatar__image {
+  width: 100%;
   overflow: visible;
   height: 100% !important;
   mask-image: linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,1) 71%, transparent 95%);
